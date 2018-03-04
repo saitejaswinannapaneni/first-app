@@ -1,0 +1,44 @@
+
+
+
+{
+  "basics":{
+    "name":"saitejaswi",
+    "phone":"7673998076",
+    "photo":"8.jpg",
+    "email":"teja123@gmail.com"
+  },
+  "educatuion":[{
+    "course":"B.tech(Computer science and engineering)",
+    "collge":"gudlavalleru engineering college",
+    "data":["2015-2019","81%","JNTU-K"]
+  },
+ {
+      "course":"B.tech(Electrical and electronics engineering)",
+      "collge":"gudlavalleru engineering college",
+      "data":["2015-2019","81%","JNTU-K"]
+    }
+  ],
+  "skills":[
+
+    {
+
+      "name":"languages known",
+      "info":["c","python","javascript","java"]
+    },
+    {
+      "name":"operatingsystem",
+      "info":["linux","windows","fedora","unix"]
+    },
+  {
+    "name":"libaries",
+    "info":["bootstrap","jquery"]
+  },
+  {
+    "name":"databases",
+    "info":["Mysql","orcale","plsql"]
+  }
+
+    ]
+
+}

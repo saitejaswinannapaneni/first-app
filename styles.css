@@ -1,0 +1,147 @@
+body{
+  background:#777;
+  /* background-image: url("1.jpg");  */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+.flex-parent{
+  background:#fff;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  border: 2px solid #000;
+}
+
+
+.profile-child{
+  background:cyan;
+  width:100%;
+  padding:2%;
+  margin:1%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 3px #000
+
+
+}
+.content-child{
+  background:#989;
+  width: 70%;
+  padding:10%;
+  border: 2px solid #eee;
+}
+h2{
+  background-color: #ddd;
+  text-decoration: underline;
+  text-align: center;
+  border-width: thin;
+  border-left: thin;
+  padding: 2px;
+
+}
+.profile_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%
+  padding: 2px;
+  height:auto;
+
+}
+h3{
+    text-decoration: underline;
+      border-width: thin;
+}
+.profile_circle{
+border-radius: 50%;
+border: 1px solid #ddd
+}
+a{
+  text-decoration: none;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #bbb;
+  }
+  .profile-child{
+    background:cyan;
+    width:100%;
+    padding:2%;
+    margin:1%
+    border: 2px solid #ddd;
+    box-shadow: 3px 3px 3px #000
+
+
+  }
+  .content-child{
+    background:#989;
+    width: 100%;
+    padding:10%;
+    border: 2px solid #eee;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #aaa;
+  }
+  .profile-child{
+    background:cyan;
+    width:100%;
+    padding:2%;
+    margin:1%
+    border: 2px solid #ddd;
+    box-shadow: 3px 3px 3px #000
+
+
+  }
+  .content-child{
+    background:#989;
+    width: 100%;
+    padding:10%;
+    border: 2px solid #eee;
+  }
+}
+
+}
+@media only screen and (min-width:481px) and (max-width:750px){
+  .flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #aaa;
+  }
+  .profile-child{
+    background:#fff;
+    width:100%;
+    padding:2%;
+    margin:1%
+    border: 2px solid #ddd;
+    box-shadow: 3px 3px 3px #000
+
+
+  }
+  .content-child{
+    background:#989;
+    width: 100%;
+    padding:10%;
+    border: 2px solid #eee;
+  }
+  table{
+    border: 1px solid #ddd;
+    padding: 2%;
+    width: 100%;
+    position: absolute;
+
+  }
+}
+
+}
